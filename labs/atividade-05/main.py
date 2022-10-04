@@ -15,8 +15,7 @@ def maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_do_joao):
             i += 1
       quantidade = len(figurinhas_do_joao) - i
 
-
-  return quantidade
+      return quantidade
 
 
 
