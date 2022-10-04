@@ -1,5 +1,5 @@
 def maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_do_joao):
-  c = Node
+  c = None
   while c != 0:
     figurinhas_da_maria = figurinhas_do_joao
     figurinhas_do_joao = c
