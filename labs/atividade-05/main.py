@@ -1,5 +1,5 @@
 def maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_do_joao):
-    max_trocas = 0
+    maximizar_trocas = 0
    
     menor_qtd = figurinhas_da_maria if len(figurinhas_da_maria) <= len(figurinhas_do_joao) else figurinhas_do_joao
     maior_qtd = figurinhas_da_maria if len(figurinhas_da_maria) >= len(figurinhas_do_joao) else figurinhas_do_joao
@@ -11,9 +11,9 @@ def maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_do_joao):
             aux = maior_qtd[n]
             maior_qtd[n] = n_figurinha
             menor_qtd[i] = aux
-            max_trocas = max_trocas + 1
+            maximizar_trocas = maximizar_trocas + 1
             break
-    return max_trocas
+    return maximizar_trocas
 
 
 
