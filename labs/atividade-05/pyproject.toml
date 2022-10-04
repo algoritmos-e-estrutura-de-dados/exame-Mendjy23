@@ -2,7 +2,7 @@
 name = "atividade-05"
 version = "0.1.0"
 description = "Atividade da disciplina de algoritmo e estrutura de dados"
-authors = ["Mario H. Adaniya <mario.adaniya@unifil.br>"]
+authors = ["MEndjy Eliaza <mendjy.eliaza@edu.unifil.br>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
