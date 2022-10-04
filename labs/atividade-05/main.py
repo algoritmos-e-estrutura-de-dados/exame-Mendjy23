@@ -3,7 +3,12 @@ def maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_do_joao):
   while c != 0:
     figurinhas_da_maria = figurinhas_do_joao
     figurinhas_do_joao = c
-    return figurinhas_do_joao
+    return figurinhas_da_maria 
+
+  trocas = int(input())
+  for i in range(trocas):
+    numeros = [int(num) for num in input().strip().split(' ')]
+    print(maximizar_troca_de_figurinhas(numeros[0], numeros[1]))  
     
    
   
